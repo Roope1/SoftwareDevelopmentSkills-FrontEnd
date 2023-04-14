@@ -4,7 +4,6 @@ This git repository is for completing the LUT-university Anytime-course **Softwa
 
 ### The three parts are:
 
-* Coursework
-* Learning Diary
-* Project 
-
+- [Coursework](/Coursework/)
+- [Learning Diary](!#)
+- [Project](/Project/)
