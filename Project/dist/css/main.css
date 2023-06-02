@@ -4,13 +4,13 @@
   right: 35px;
   top: 35px;
   cursor: pointer;
-  transition: all 0.5s ease-out; }
+  transition: all 0.5s ease-in-out; }
   .menu-btn .btn-line {
     width: 28px;
     height: 3px;
     margin-bottom: 5px;
     background: white;
-    transition: all 0.5s ease-out; }
+    transition: all 0.5s ease-in-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
     .menu-btn.close .btn-line:nth-child(1) {
@@ -43,12 +43,12 @@
     background: #303d57;
     list-style: none;
     transform: translate3d(0, -100%, 0);
-    transition: all 0.5s ease-out; }
+    transition: all 0.5s ease-in-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
     background: #394867;
-    transition: all 0.5s ease-out;
+    transition: all 0.5s ease-in-out;
     transform: translate3d(0, 100%, 0); }
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
@@ -61,7 +61,7 @@
       background-size: cover; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
-    transition: all 0.5s ease-out; }
+    transition: all 0.5s ease-in-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
@@ -75,7 +75,7 @@
     font-weight: 300;
     color: white;
     text-decoration: none;
-    transition: all 0.5s ease-out; }
+    transition: all 0.5s ease-in-out; }
     .menu .nav-link:hover {
       color: #e78f0a; }
 
@@ -99,7 +99,7 @@
   .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #e78f0a;
     color: black;
-    transition: all 0.5s ease-out; }
+    transition: all 0.5s ease-in-out; }
 
 .btn-dark {
   background: black;
@@ -173,7 +173,7 @@ main {
       padding: 0.4rem; }
       main .icons a:hover {
         color: #e78f0a;
-        transition: all 0.5s ease-out; }
+        transition: all 0.5s ease-in-out; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -218,7 +218,7 @@ main {
     .projects img:hover {
       opacity: 0.5;
       border-color: #e78f0a;
-      transition: all 0.5s ease-out; }
+      transition: all 0.5s ease-in-out; }
 
 #main-footer {
   text-align: center;
