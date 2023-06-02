@@ -1,5 +1,6 @@
 @import "config";
 @import "menu";
+@import "buttons";
 
 * {
   box-sizing: border-box;
@@ -85,11 +86,14 @@ main {
     margin: auto;
     border-radius: 50%;
     border: $secondary-color 3px solid;
+    height: 250px;
   }
 
   .bio {
     grid-area: bio;
-    font-size: 1, 5rem;
+    background: darken($primary-color, 5);
+    padding: 0.5rem;
+    font-size: 1.3rem;
   }
 
   .job-1 {
@@ -103,9 +107,12 @@ main {
   }
 
   .job {
-    background: ligthen($primary-color, 5);
-    padding: 0, 5rem;
+    background: darken($primary-color, 5);
+    padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+    h3 {
+      color: $secondary-color;
+    }
   }
 }
 
